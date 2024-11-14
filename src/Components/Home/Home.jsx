@@ -1,11 +1,20 @@
 import React from 'react'
-import protector from "../../assets/protector.jpg"
+import ext from "../../assets/ext.webp"
+import extr from "../../assets/ext.png"
+import Navbar from '../Navbar/Navbar'
+import "../../App.css"
 
 const Home = () => {
   return (
-    <div>
-      <div>
-        <img src={protector} alt="" className=''/>
+    <div className=''>
+      <div className='top-0'>
+        <Navbar/>
+      <div className='relative'>
+        <img src={ext} alt="" className='img'/>
+        <div className='absolute bottom-4 p-4'>
+        <img src={extr} alt="" className='w-[50%]'/>
+        </div>
+        </div>
       </div>
     </div>
   )

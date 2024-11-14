@@ -4,9 +4,9 @@ import { IoSearchOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="bg-black text-white p-3">
-      <div className="flex justify-around items-center">
-        <div className="flex justify-start items-center gap-7">
+    <div className="bg-black  text-white p-3">
+      <div className="flex justify-between items-center">
+        <div className="flex justify-start items-center gap-5 ml-5">
           <img src={logo} alt="" className="w-24 md:w-28" />
           <a href="#">Home</a>
           <a href="#">TV Shows</a>
