@@ -5,8 +5,12 @@ import Navbar from '../Navbar/Navbar'
 import "../../App.css"
 
 const Home = () => {
+
+  const container =()=> {
+    backgroundImage:`url(${ext})`
+  }
   return (
-    <div className=''>
+    <div style={container}>
       <div className='top-0'>
         <Navbar/>
       <div className='relative'>
