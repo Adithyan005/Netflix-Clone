@@ -1,24 +1,19 @@
 import React from 'react'
-import ext from "../../assets/ext.webp"
-import extr from "../../assets/ext.png"
+import extraction from "../../assets/ext.jpg"
 import Navbar from '../Navbar/Navbar'
-import "../../App.css"
 
 const Home = () => {
 
-  const container =()=> {
-    backgroundImage:`url(${ext})`
-  }
+  const container={
+    
+    backgroundSize:"cover",
+    backgroundPositon:"center"
+  };
+
   return (
     <div style={container}>
-      <div className='top-0'>
+      <div>
         <Navbar/>
-      <div className='relative'>
-        <img src={ext} alt="" className='img'/>
-        <div className='absolute bottom-4 p-4'>
-        <img src={extr} alt="" className='w-[50%]'/>
-        </div>
-        </div>
       </div>
     </div>
   )
