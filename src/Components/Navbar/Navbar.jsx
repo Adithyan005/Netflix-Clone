@@ -1,10 +1,11 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import { IoSearchOutline } from "react-icons/io5";
+import icon from "../../assets/icon.jpg"
 
 const Navbar = () => {
   return (
-    <div className="bg-transparent  md:p-3">
+    <div className="bg-transparent text-white md:p-3">
       <div className="md:flex justify-between items-center">
         <div className="flex justify-start items-center gap-5 ml-5">
           <img src={logo} alt="" className="w-12 md:w-28" />
@@ -15,8 +16,9 @@ const Navbar = () => {
           <a href="#">My List</a>
           <a href="#">Browse by Languages</a>
         </div>
-        <div className="">
+        <div className="flex justify-center items-center gap-5">
         <IoSearchOutline />
+        <img src={icon} alt="" className="w-10 rounded-md"/>
         </div>
       </div>
     </div>

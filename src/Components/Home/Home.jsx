@@ -1,13 +1,15 @@
 import React from 'react'
-import extraction from "../../assets/ext.jpg"
 import Navbar from '../Navbar/Navbar'
+import maharaj from "../../assets/maharaj.jpg"
 
 const Home = () => {
 
   const container={
-    
+    backgroundImage:`url(${maharaj})`,
     backgroundSize:"cover",
-    backgroundPositon:"center"
+    backgroundPositon:"center",
+    height:"100vh",
+    width:"100vw"
   };
 
   return (
@@ -15,6 +17,7 @@ const Home = () => {
       <div>
         <Navbar/>
       </div>
+      
     </div>
   )
 }
