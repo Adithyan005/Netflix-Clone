@@ -7,7 +7,7 @@ import drop from "../../assets/drop.png"
 
 const Navbar = () => {
   return (
-    <div className="bg-transparent text-white md:p-5">
+    <div className="bg-transparent text-white md:p-5 font-stylish">
       <div className="md:flex justify-between items-center">
         <div className="flex justify-start items-center gap-5 ml-12">
           <img src={logo} alt="" className="w-12 md:w-28" />
