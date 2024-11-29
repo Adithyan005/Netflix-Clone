@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import maharaj from "../../assets/maharaj.jpg"
+import mahr from "../../assets/mahr.png"
 
 const Home = () => {
 
@@ -14,8 +15,12 @@ const Home = () => {
 
   return (
     <div style={container}>
-      <div>
+      <div className='relative'>
         <Navbar/>
+      </div>
+      <div className='absolute bottom-40 left-5'>
+        <img src={mahr} alt="" className='w-[25rem]'/>
+        
       </div>
       
     </div>
