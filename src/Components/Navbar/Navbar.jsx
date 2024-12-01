@@ -33,7 +33,7 @@ const Navbar = () => {
         <img src={icon} alt="" className="w-8 rounded-md"/>
         <img src={drop} alt="" className="w-4"/>
         {isdropdown && (
-        <div className="flex flex-col absolute shadow-lg rounded-md top-8 left-6 z-10">
+        <div className="flex flex-col absolute shadow-lg bg-black rounded-md top-8 left-6 z-10">
           <a href="" className="block hover:bg-blue text-sm px-2 py-1 rounded-md">Profile</a>
           <a href="" className="block hover:bg-blue text-sm px-2 py-1 rounded-md">Settings</a>
           <a href="" className="block hover:bg-blue text-sm px-2 py-1 rounded-md">Logout</a>
