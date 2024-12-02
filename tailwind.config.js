@@ -10,7 +10,8 @@ export default {
         stylish:["Poppins","sans-serif"]
       },
       colors:{
-        blue:"#27508C"
+        blue:"#27508C",
+        ash:"#63636499"
       },
     },
   },

@@ -3,7 +3,7 @@ import Navbar from "../Navbar/Navbar";
 import maharaj from "../../assets/maharaj.jpg";
 import mahr from "../../assets/mahr.png";
 import play from "../../assets/play.png";
-import info from "../../assets/info.png"
+import info1 from "../../assets/info1.png"
 
 const Home = () => {
   const container = {
@@ -27,12 +27,12 @@ const Home = () => {
           mother.
         </p>
         <div className="pt-5 flex gap-7">
-          <div className="bg-white w-[6.5rem] font-stylish text-sm font-bold h-8 flex justify-center items-center">
+          <div className="bg-white w-[6rem] font-stylish text-xs font-bold h-8 flex justify-center items-center hover:bg-[#ffffffbf]">
             <img src={play} alt="" className="w-9" />
             <p>Play</p>
           </div>
-          <div className="bg-gray-300 text-white flex justify-center items-center font-bold gap-3 w-[7rem] h-8 text-sm">
-            <img src={info} alt="" className="w-5"/>
+          <div className="bg-[#6d6d6eb3] text-white flex justify-center items-center font-bold gap-1 w-[6.5rem] h-8 text-xs hover:bg-[#6d6d6e66]">
+            <img src={info1} alt="" className="w-8"/>
             <p>More info</p>
           </div>
         </div>
