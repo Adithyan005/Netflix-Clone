@@ -9,6 +9,9 @@ import card8 from "../../assets/card_img/young-sheldon.jpg"
 import card9 from "../../assets/card_img/sacred-games.jpg"
 import card10 from "../../assets/card_img/adipurush.jpg"
 import card11 from "../../assets/card_img/sukhee.jpg"
+import card12 from "../../assets/card_img/mission-raniganj.jpg"
+import card13 from "../../assets/card_img/leo.jpg"
+import card14 from "../../assets/card_img/allofusaredead.jpg"
 
 const card_data=[
     {
@@ -54,6 +57,18 @@ const card_data=[
     {
         image:card11,
         name:"Sukhee"
+    },
+    {
+        image:card12,
+        name:"Mission Raniganj"
+    },
+    {
+        image:card13,
+        name:"Leo"
+    },
+    {
+        image:card14,
+        name:"All of us are Dead"
     },
 ]
 

@@ -36,6 +36,7 @@ const Home = () => {
             <p>More info</p>
           </div>
         </div>
+          
       </div>
     </div>
   );
