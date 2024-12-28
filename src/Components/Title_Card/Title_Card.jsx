@@ -5,10 +5,10 @@ const Title_Card = () => {
   return (
     <div>
       <h1>Popular on Netflix</h1>
-      <div className='flex gap-5 overflow-x-scroll'>
+      <div className='flex gap-10'>
        {card_data.map((card,index)=>{
         return <div key={index} className='text-white'>
-            <img src={card.image} alt="" className='w-[50rem] '/>
+            <img src={card.image} alt="" className='w-[90rem] '/>
             <p>{card.name}</p>
         </div>
        })}

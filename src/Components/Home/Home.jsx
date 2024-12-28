@@ -4,6 +4,7 @@ import maharaj from "../../assets/maharaj.jpg";
 import mahr from "../../assets/mahr.png";
 import play from "../../assets/play.png";
 import info1 from "../../assets/info1.png"
+import Title_Card from "../Title_Card/Title_Card";
 
 const Home = () => {
   const container = {
@@ -36,7 +37,7 @@ const Home = () => {
             <p>More info</p>
           </div>
         </div>
-          
+          {/* titlecard */}
       </div>
     </div>
   );
