@@ -11,8 +11,7 @@ const Home = () => {
     backgroundImage: `url(${maharaj})`,
     backgroundSize: "cover",
     backgroundPositon: "center",
-    height: "100vh",
-    width: "100vw",
+    height: "110vh",
   };
 
   return (
@@ -21,7 +20,7 @@ const Home = () => {
         <div className="relative">
           <Navbar />
         </div>
-        <div className="absolute bottom-10 left-5 grid-cols-2">
+        <div className="absolute bottom-10 left-5 grid-cols-2 top-[40vh]">
           <img src={mahr} alt="" className="w-[25rem]" />
           <p className="text-white font-stylish text-justify w-[35rem]">
             Karsan is a progressive thinker and social reformer in
@@ -38,13 +37,19 @@ const Home = () => {
               <p>More info</p>
             </div>
           </div>
+          <div>
+            <div>
+              <Title_Card title={"Popular on Netflix"}/>
+            </div>
+          </div>
         </div>
       </div>
-      <div>
-        <div>
-          <Title_Card />
+        <div className="mt-[5rem] pl-4 ms-2">
+        <Title_Card title={"Blockbuster Movies"}/>
+        <Title_Card title={"Only on Netflix"}/>
+        <Title_Card title={"Upcoming"}/>
+        <Title_Card title={"Top Picks for you"}/>
         </div>
-      </div>
     </div>
   );
 };

@@ -4,3 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: black;
+}
+.scr::-webkit-scrollbar {
+    display: none;
+}
+
+

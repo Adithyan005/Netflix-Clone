@@ -1,23 +1,23 @@
 import React from "react";
 import card_data from "../Cards_Data/Cards_Data";
 
-const Title_Card = () => {
+const Title_Card = (props) => {
   return (
-    <div>
-      <h1 className="text-3xl font-stylish text-center mt-10 mb-10">
-        Popular on Netflix
+    <div className="text-white font-stylish ">
+      <h1 className="text-xl mt-8 font-semibold">
+        {props.title}
       </h1>
-      <div className="flex justify-center mb-10">
-        <div className="w-[200vh] overflow-x-scroll">
-          <div className="flex w-[500vh] gap-10">
+      <div className="ms-4 flex justify-center">
+        <div className="scr w-[210vh] overflow-x-scroll mt-4">
+          <div className="flex w-[500vh] gap-3">
             {card_data.map((card, index) => {
               return (
                 <div
                   key={index}
                   className="text-white"
                 >
-                  <img src={card.image} alt="" className="w-[40rem]" />
-                  <p>{card.name}</p>
+                  <img src={card.image} alt="" className="w-[40vw]" />
+                  <p className="font-stylish">{card.name}</p>
                 </div>
               );
             })}

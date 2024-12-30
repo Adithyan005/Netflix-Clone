@@ -1,16 +1,15 @@
 import card1 from "../../assets/card_img/kungfupanda.jpg"
-import card2 from "../../assets/card_img/squidgame.jpg"
-import card3 from "../../assets/card_img/squidchallenge.jpg"
-import card4 from "../../assets/card_img/jawan.jpg"
-import card5 from "../../assets/card_img/the-ghost.jpg"
-// import card7 from "../../assets/card_img/the-railway-men.jpg"
-// import card8 from "../../assets/card_img/young-sheldon.jpg"
-// import card9 from "../../assets/card_img/sacred-games.jpg"
-// import card10 from "../../assets/card_img/adipurush.jpg"
-// import card11 from "../../assets/card_img/sukhee.jpg"
-// import card12 from "../../assets/card_img/mission-raniganj.jpg"
-// import card13 from "../../assets/card_img/leo.jpg"
-// import card14 from "../../assets/card_img/allofusaredead.jpg"
+import card2 from "../../assets/card_img/squidchallenge.jpg"
+import card3 from "../../assets/card_img/jawan.jpg"
+import card4 from "../../assets/card_img/the-ghost.jpg"
+import card5 from "../../assets/card_img/aod.jpg"
+import card6 from "../../assets/card_img/sarkar.jpg"
+import card7 from "../../assets/card_img/baywatch.jpg"
+import card8 from "../../assets/card_img/meiyazhagan.jpg"
+import card9 from "../../assets/card_img/sinamika.jpg"
+import card10 from "../../assets/card_img/doctor.jpg"
+import card11 from "../../assets/card_img/jagamethandhiram.jpg"
+
 
 const card_data=[
     {
@@ -20,54 +19,45 @@ const card_data=[
     },
     {
         image:card2,
-        name:"Squid Game ",
-       
-    },
-    {
-        image:card3,
         name:"Squid Challenge"
     },
     {
-        image:card4,
+        image:card3,
         name:"Jawan"
     },
     {
-        image:card5,
+        image:card4,
         name:"The Ghost"
     },
+    {
+        image:card5,
+        name:"All of us are Dead"
+    },
+    {
+        image:card6,
+        name:"Sarkar"
+    },
+    {
+        image:card7,
+        name:"Baywatch"
+    },
+    {
+        image:card8,
+        name:"Meiyazhagan"
+    },
+    {
+        image:card9,
+        name:"Hey Sinamika"
+    },
+    {
+        image:card10,
+        name:"Doctor"
+    },
+    {
+        image:card11,
+        name:"Jagame Thandhiram"
+    },
     
-    // {
-    //     image:card7,
-    //     name:"The Railway Men"
-    // },
-    // {
-    //     image:card8,
-    //     name:"Young Sheldon"
-    // },
-    // {
-    //     image:card9,
-    //     name:"Sacred Games"
-    // },
-    // {
-    //     image:card10,
-    //     name:"Adipurush"
-    // },
-    // {
-    //     image:card11,
-    //     name:"Sukhee"
-    // },
-    // {
-    //     image:card12,
-    //     name:"Mission Raniganj"
-    // },
-    // {
-    //     image:card13,
-    //     name:"Leo"
-    // },
-    // {
-    //     image:card14,
-    //     name:"All of us are Dead"
-    // },
 ]
 
 export default card_data
