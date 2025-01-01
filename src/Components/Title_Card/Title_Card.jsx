@@ -1,7 +1,13 @@
 import React from "react";
 import card_data from "../Cards_Data/Cards_Data";
+import { useNavigate } from "react-router-dom";
 
 const Title_Card = (props) => {
+  const navigate = useNavigate();
+  const handleclick = () => {
+    navigate("/moviepage");
+  };
+
   return (
     <div className="text-white font-stylish ">
       <h1 className="text-xl mt-8 font-semibold">{props.title}</h1>
@@ -10,8 +16,13 @@ const Title_Card = (props) => {
           <div className="flex w-[500vh] gap-3">
             {card_data.map((card, index) => {
               return (
-                <div key={index} className="text-white">
-                  <img src={card.image} alt="" className="w-[40vw]" />
+                <div key={index} className="text-white" onClick={()=>{handleclick()}}>
+                  <img
+                    src={card.image}
+                    alt=""
+                    className="w-[40vw] cursor-pointer"
+                    
+                  />
                   <p className="font-stylish">{card.name}</p>
                 </div>
               );
