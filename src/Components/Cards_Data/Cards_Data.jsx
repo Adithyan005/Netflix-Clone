@@ -15,7 +15,6 @@ const card_data=[
     {
         image:card1,
         name:"Kung Fu Panda",
-        
     },
     {
         image:card2,
