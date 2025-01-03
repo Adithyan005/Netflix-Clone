@@ -4,8 +4,8 @@ import { useNavigate } from "react-router-dom";
 
 const Title_Card = (props) => {
   const navigate = useNavigate();
-  const handleclick = (image,name) => {
-    navigate("/moviepage",{state:{image,name}});
+  const handleclick = (image, name, year, director, cast, writers, rating, description) => {
+    navigate("/moviepage", { state: { image, name, year, director, cast, writers, rating,  description} });
   };
 
   return (
@@ -16,15 +16,19 @@ const Title_Card = (props) => {
           <div className="flex w-[500vh] gap-3">
             {card_data.map((card, index) => {
               return (
-                <div key={index} className="text-white" onClick={()=>{handleclick(card.image,card.name)}}>
+                <div
+                  key={index}
+                  className="text-white"
+                  onClick={() => {
+                    handleclick(card.image, card.name, card.year, card.director, card.cast, card.writers, card.rating, card.description);
+                  }}
+                >
                   <img
                     src={card.image}
                     alt=""
                     className="w-[40vw] cursor-pointer"
-                    
                   />
                   <p className="font-stylish">{card.name}</p>
-                  
                 </div>
               );
             })}

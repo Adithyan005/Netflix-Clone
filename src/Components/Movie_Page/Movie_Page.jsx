@@ -4,7 +4,7 @@ import logo from "../../assets/logo.png";
 
 const Movie_Page = () => {
   const location = useLocation();
-  const { image, name } = location.state || {};
+  const { image, name, year, director, cast, writers, rating, description } = location.state || {};
 
   return (
     <div className="text-white">
@@ -33,6 +33,7 @@ const Movie_Page = () => {
         <div className="mt-7 px-6 ms-4">
           <img src={image} alt="" className="w-[35vw]"/>
         </div>
+       
       </div>
     </div>
   );
