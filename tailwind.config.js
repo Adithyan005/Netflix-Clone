@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        stylish:["Poppins","sans-serif"]
+        stylish:["Poppins","sans-serif"],
+        robo:["Roboto","serif"]
       },
       colors:{
         blue:"#27508C",
